@@ -1,5 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/25788879/README.1.md)
-
 # 🦺 Hardhat & Safety Vest Detection using YOLO
 
 This project builds a **computer vision model for construction safety monitoring** using the YOLO object detection framework.
