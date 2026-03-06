@@ -32,20 +32,6 @@ Classes included:
 - Vest
 - Person
 
-Dataset structure:
-
-dataset/
-│
-├── images/
-│   ├── train
-│   ├── val
-│   └── test
-│
-├── labels/
-│   ├── train
-│   ├── val
-│   └── test
-
 Annotations are provided in **YOLO format**.
 
 ---
@@ -60,7 +46,7 @@ Training configuration:
 
 | Parameter | Value |
 |-----------|------|
-| Model | YOLO Small |
+| Model | YOLO26 Small |
 | Epochs | 20 |
 | Batch Size | 16 |
 | Image Size | 640 |
@@ -109,17 +95,6 @@ Possible improvements for this project include:
 - Hyperparameter tuning
 - Training larger YOLO models
 - Deploying the model for real-time monitoring
-
----
-
-# 📎 Repository Structure
-
-project/
-│
-├── notebook.ipynb
-├── hardhat.yaml
-├── runs/
-├── README.md
 
 ---
 
